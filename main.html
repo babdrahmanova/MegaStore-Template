@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form" action="" class="form_application ">
+        <div class="container">
+            <h4>Анкета для корпоративных клиентов</h4>
+            <div>
+                <label for="label">
+                    <p>Личные данные</p>
+                </label>
+                <span class="nowrap">
+                    <input name="user_lastname" class="form_cell width_200" class="label" type="text" placeholder="Фамилия">
+                    <input name="user_name" class="form_cell width_200" type="text" placeholder="Имя">
+                    <input name="user_surname" class="form_cell width_200" type="text" placeholder="Отчество">
+                </span>
+            </div>
+            <div>
+                <label for="label">
+                    <p>Паспортные данные</p>
+                </label>
+                <span class="nowrap">
+                    <input name="user_birth_date"  class="form_cell width_200" class="label" type="date" placeholder="Дата рождения">
+                    <input name="user_address" class="form_cell width_408" type="text" placeholder="Место проживания по прописке">
+                </span>
+                <input name="user_id" class="form_cell width_200" type="text" placeholder="Серийный номер AN/ID">
+                <input name="user_inn" class="form_cell width_200" type="text" placeholder="ИНН">
+                <input name="receive_date" class="form_cell width_200" type="date" placeholder="Дата получения" value="Дата получения">
+                <input name="user_phone_number" class="form_cell width_200" type="tel" placeholder="Контактный номер">
+                <input name="user_email" class="form_cell width_200" type="email" placeholder="Электронный адрес">
+                <select class="form_cell width_200"  placeholder="Наименование банка">
+                    <option disabled>Наименование банка</option>
+                    <option value="0"></option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+             
+                <input name="user_current_address" class="form_cell width_408" type="text" placeholder="Фактическое место проживания">
+                <div class="align_center">
+                    <button id="btnSubmit" type="submit">Далее</button>
+                </div>
+            </div>
+        </div>
+    </form><script src="script.js"></script>
+</body>
+
+</html>
